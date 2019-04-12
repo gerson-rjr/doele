@@ -1,0 +1,68 @@
+html,body {
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+	
+*{		
+	font-family: 'Roboto', sans-serif;
+}
+
+.tudo {
+    width: 100%;
+    height: 100%;
+}
+.fundoTela1 {
+    background-image: url(../img/fundo-div.png);
+    background-size: cover;
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.logo {
+    padding-top: 40%;
+}
+
+.formulario {
+    background-color: white;
+    background-size: cover;
+    width: 65%;
+    height: 100%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-long-arrow-alt-left{
+    font-size: 14px;
+    display: inline-block;
+    color: rgb(254,131,42);
+    padding-top: 5%; 
+}
+
+.link {
+    font-size: 14px;
+    color: rgb(254,131,42);
+    padding-left: 20%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    padding-top: 2%;
+    padding-left: 20%;
+}
+
+.btn-gradient{
+    background: linear-gradient(90deg, rgba(254,131,42,1) 0%, rgba(254,222,56,1) 100%);
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 3em;
+    cursor: pointer;
+    width: 400px;
+}
