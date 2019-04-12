@@ -13,13 +13,27 @@
     <div class="formulario">
       <a href="#"><p class="link"><i class="fas fa-long-arrow-alt-left"></i> Voltar para o início</p></a>
       <h3>Crie sua conta no <b>Doelê</b></h3>
-      <p style="padding-left: 20%; padding-top:2%;"><img src="img/icon-instituicao.png" style="width:2.5%; padding-right: 0.5%; padding-bottom: 0.2%;";> Sou uma instituição! <a href="#"> Cadastre-se aqui.</a></p>
-      <hr width="60%" style="margin-top: 8%; border: 1px solid #ccc">
+      <!-- As próximas tres linhas são apenas uma tag -->
+      <p style="color: #aaa; padding-left: 20%; padding-top:1%;"><img src="img/icon-instituicao.png" 
+        style="width:2.5%; padding-right: 0.5%; padding-bottom: 0.2%;";> Sou uma instituição! 
+        <a class="paragrafo" href="#"> Cadastre-se aqui.</a></p>
+        <!-- final da tag -->
+      <hr width="60%" style="margin-top: 3%; border: 1px solid #aaa">
       <div style="position: relative; top: -5%; text-align: center;">
-        <span style="padding: 1%; font-size: 14px; color: #ccc; background-color: white"><strong>Prenchaa o campo abaixo</strong></span>
+        <span style="padding: 1%; font-size: 14px; color: #aaa; background-color: white"><strong>Prenchaa o campo abaixo</strong></span>
       </div>
-      <button class="btn btn-gradient rounded">CRIAR UMA CONTA GRÁTIS</button>
-        <form></form>  
+      <div class="dados_formulario">
+        <form>
+          <input type="text" name="Primeiro Nome" placeholder="Primeiro Nome"><br>
+          <input type="text" name="Último Nome" placeholder="Último Nome"><br>
+          <input type="text" name="Data de Nascimento" placeholder="Data de Nascimento"><br>
+          <input type="text" name="Email" placeholder="Email"><br>
+          <input type="password" name="Senha" placeholder="Senha"><br>
+          <input type="password" name="Confirmar Senha" placeholder="Confirmar Senha"><br>
+        </form>
+        <button class="btn btn-gradient">CRIAR UMA CONTA GRÁTIS</button>   
+        <p style="color:#aaa;">Já sou cadastrado.<a class="paragrafo" href="#"> Fazer login!</a></p>
+      </div>
     </div>
           
 
