@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Junior.GERSON\Desktop\cadastrodoele\app\controllers\HomeController.java:17:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m    @Inject views.html.cadastroleitor cadastroleitorTemplate;[0m
+[0m[[0m[31merror[0m] [0m[0m     ^  symbol:   class Inject[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class HomeController[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
