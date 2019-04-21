@@ -1,0 +1,44 @@
+@this(webJarsUtil: org.webjars.play.WebJarsUtil)
+
+<!doctype html>
+  <head>
+    <title>Cadastro Doelê Instituição</title>
+    @webJarsUtil.locate("bootstrap.min.css").css()
+    @webJarsUtil.locate("bootstrap.js").script()
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/cadastro.css")">
+  </head>
+  <body>
+    <div class="fundoTela1">
+      <img class="logo" src="@routes.Assets.versioned("images/logo.png")" style="width:30%">
+    </div>
+    <div class="formulario">
+      <a href="#"><p class="link"><i class="fas fa-long-arrow-alt-left"></i> Voltar para o início</p></a>
+      <h3>Crie sua conta no <strong>Doelê</strong></h3>
+      <!-- As próximas tres linhas são apenas uma tag -->
+      <p style="color: #aaa; padding-left: 20%; padding-top:1%;"><img src="@routes.Assets.versioned("images/icon-leitor.png")" 
+        style="width:2.5%; padding-right: 0.5%; padding-bottom: 0.2%;";> Sou um leitor. 
+        <a class="paragrafo" href="cadastro-leitor"> Cadastre-se aqui!</a></p>
+        <!-- final da tag -->
+      <hr width="60%" style="margin-top: 3%; border: 1px solid ; color: #aaa">
+      <div style="position: relative; top: -5%; text-align: center;">
+        <span style="padding: 1%; font-size: 14px; color: #aaa; background-color: white"><strong>Prenchaa o campo abaixo</strong></span>
+      </div>
+      <div class="dados_formulario">
+        <form>
+          <input type="text" name="Nome Instituição" placeholder="Nome da Instituição"><br>
+          <input type="text" name="CNPJ" placeholder="CNPJ"><br>
+          <input type="text" name="CEP" placeholder="CEP"><br>
+          <input type="text" name="Endereço" placeholder="Endereço"><br>
+          <input type="text" name="Estado" placeholder="Estado"><br>
+          <input type="text" name="Cidade" placeholder="Cidade"><br>
+          <input type="email" name="Email" placeholder="Email"><br>
+          <input type="password" name="Senha" placeholder="Senha"><br>
+          <input type="password" name="Confirmar Senha" placeholder="Confirmar Senha"><br>
+        </form>
+        <button class="btn btn-gradient">CRIAR UMA CONTA GRÁTIS</button>   
+        <p style="color:#aaa;">Já sou cadastrado.<a class="paragrafo" href="#"> Fazer login!</a></p>
+      </div>
+    </div>
+  </body>
+</html>
